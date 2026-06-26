@@ -1,4 +1,5 @@
 @import url(css/reset.css);
+@import url(fonts/norse/stylesheet.css);
 
 #main-container {
 	background-color: white;
@@ -24,4 +25,27 @@
 #credit > a {
 	color: white;
 	text-decoration: underline;
+}
+
+.img-container > div {
+	position: relative;
+	top: 300px;
+	width: 100%;
+	height: 150px;
+	padding: 10px 0px;
+	background-color: #00000054;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#odin-logo {
+	height: 100%;
+}
+
+.img-container > div > p {
+	font-family: "Norse", sans-serif;
+	font-weight: bold;
+	font-size: 100px;
+	color: white;
 }
