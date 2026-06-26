@@ -1,0 +1,27 @@
+@import url(css/reset.css);
+
+#main-container {
+	background-color: white;
+}
+
+.img-container {
+	height: 100vh;
+	width: 504px;
+	background-image: url(img/form-image.avif);
+}
+
+.img-container > img {
+	height: 100%;
+}
+
+#credit {
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 95vh;
+}
+
+#credit > a {
+	color: white;
+	text-decoration: underline;
+}
