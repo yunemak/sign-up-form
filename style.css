@@ -91,6 +91,14 @@ fieldset {
 	justify-content: center;
 	gap: 100px;
 	box-shadow: 5px 5px 10px rgba(1, 1, 1, 0.2);
+	border: none;
+}
+
+legend {
+	font-size: 25px;
+	font-weight: bold;
+	position: relative;
+	top: 30px;
 }
 
 .input-group {
@@ -99,7 +107,7 @@ fieldset {
 }
 
 label {
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 }
 
 button[type="submit"] {
