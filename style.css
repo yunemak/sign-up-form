@@ -6,6 +6,7 @@
 
 #main-container {
 	background-color: white;
+	font-family: "Google Sans";
 	/* Layout inside */
 	display: flex;
 }
@@ -23,14 +24,14 @@
 }
 
 .form-container {
-	background-color: white;
-	padding: 50px;
+	background-color: #F9FAFB;
 	flex: 5;
 	/* Layout inside */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	gap: 100px;
 }
 
 /* Left Side Elements */
@@ -71,7 +72,7 @@
 /* Right Side Elements */
 
 .form-header {
-	flex: 1;
+	padding: 50px;
 	/* Layout inside */
 	display: flex;
 	flex-direction: column;
@@ -83,6 +84,7 @@ h1 {
 }
 
 fieldset {
+	padding: 50px;
 	height: 300px;
 	background-color: white;
 	display: flex;
