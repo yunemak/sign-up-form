@@ -26,10 +26,6 @@
 
 /* Left Side */
 
-.img-container > img {
-	height: 100%;
-}
-
 #credit {
 	color: white;
 	text-align: center;
@@ -43,9 +39,8 @@
 }
 
 .img-container > div {
-	top: 300px;
 	width: 100%;
-	height: 150px;
+	height: 180px;
 	padding: 10px 0px;
 	background-color: #00000054;
 	display: flex;
