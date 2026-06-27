@@ -86,6 +86,11 @@ h1 {
 	font-size: 25px;
 }
 
+form {
+	display: flex;
+	flex-direction: column;
+}
+
 fieldset {
 	padding: 50px;
 	background-color: white;
@@ -115,6 +120,7 @@ label {
 }
 
 button[type="submit"] {
+	max-width: 230px;
 	background-color: #596D48;
 	padding: 15px 50px;
 	border-radius: 10px;
