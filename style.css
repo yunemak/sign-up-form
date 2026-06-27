@@ -6,6 +6,7 @@
 
 #main-container {
 	background-color: white;
+	/* Layout inside */
 	display: flex;
 }
 
@@ -13,18 +14,26 @@
 	flex: 3;
 	height: 100vh;
 	background-image: url(img/form-image.avif);
+	/* Layout inside*/
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: center;
-	gap: 600px;
+	gap: 50vh;
 }
 
 .form-container {
+	background-color: white;
+	padding: 50px;
 	flex: 5;
+	/* Layout inside */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-/* Left Side */
+/* Left Side Elements */
 
 #credit {
 	color: white;
@@ -59,18 +68,18 @@
 	color: white;
 }
 
-/* Right Side */
+/* Right Side Elements */
+
+.form-header {
+	flex: 1;
+	/* Layout inside */
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
 
 h1 {
 	font-size: 25px;
-}
-
-.form-container {
-	background-color: #f9fafb;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: space-between;
 }
 
 fieldset {
