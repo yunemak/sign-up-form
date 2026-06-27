@@ -1,21 +1,30 @@
 @import url(css/reset.css);
 @import url(fonts/norse/stylesheet.css);
 
+
+/* Containers */ 
+
 #main-container {
 	background-color: white;
 	display: flex;
 }
 
-.img-container, .form-container {
-	flex: 1;
+.img-container {
+	flex: 3;
+	height: 100vh;
+	background-image: url(img/form-image.avif);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 600px;
+}
+
+.form-container {
+	flex: 5;
 }
 
 /* Left Side */
-.img-container {
-	max-width: 700px;
-	height: 100vh;
-	background-image: url(img/form-image.avif);
-}
 
 .img-container > img {
 	height: 100%;
@@ -24,11 +33,8 @@
 #credit {
 	color: white;
 	text-align: center;
-	position: absolute;
-	top: 95vh;
-	display: block;
-	text-align: center;
-	width: 700px;
+	position: relative;
+	bottom: 20px;
 }
 
 #credit > a {
@@ -37,7 +43,6 @@
 }
 
 .img-container > div {
-	position: relative;
 	top: 300px;
 	width: 100%;
 	height: 150px;
@@ -52,10 +57,10 @@
 	height: 100%;
 }
 
-.img-container > div > p {
+#odin-word {
 	font-family: "Norse", sans-serif;
-	font-weight: bold;
 	font-size: 100px;
+	font-weight: bold;
 	color: white;
 }
 
