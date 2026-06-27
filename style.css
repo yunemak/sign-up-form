@@ -165,6 +165,10 @@ input[type="password"]:focus {
 	border-color: blue;
 }
 
-input:required {
+input:user-invalid {
 	border: 1px solid red;
+}
+
+input:user-valid {
+	border: 1px solid greenyellow;
 }
