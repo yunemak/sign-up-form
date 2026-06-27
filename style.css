@@ -29,9 +29,6 @@
 	/* Layout inside */
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 100px;
 }
 
 /* Left Side Elements */
@@ -72,11 +69,17 @@
 /* Right Side Elements */
 
 .form-header {
+	flex: 3;
 	padding: 50px;
 	/* Layout inside */
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	gap: 30px;
+}
+
+.form-header + div {
+	flex: 5;
 }
 
 h1 {
@@ -86,19 +89,20 @@ h1 {
 fieldset {
 	padding: 50px;
 	background-color: white;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 100px;
 	box-shadow: 5px 5px 10px rgba(1, 1, 1, 0.2);
 	border: none;
+	/* Layout inside */
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 30px;
 }
 
-legend {
-	font-size: 25px;
-	font-weight: bold;
-	position: relative;
-	top: 30px;
+fieldset > div {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
 }
 
 .input-group {
